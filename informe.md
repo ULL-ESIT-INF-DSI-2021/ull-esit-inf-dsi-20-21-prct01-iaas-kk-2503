@@ -187,4 +187,61 @@ Lleve el cursor a la esquina superior derecha (donde aparece la foto de perfil d
 
 ![Add key](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/70.png)
 
+Si todo ha ido bien, ahora podría ejecutar el comando *git clone git@github.com:ULL-ESIT-INF-DSI-2021/prct01-iaas-vscode.git* para clonar un repositorio existente. Le va a preguntar si de verdad quiere clonar el repositorio de ese usuario, introduzca *yes* y pulse intro.
 
+![Cloned](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/74.png)
+
+Con lo anterior se ha creado un directorio con la copia de ese repositorio en su máquina, para acceder ponga *cd prct01-iaas-vscode/*
+
+![Carpeta clone](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/76.png)
+
+Puede observar que al entrar en la carpeta el prompt muestra la rama actual en la que se está trabajando, eso fue lo que pretendíamos configurar cuando trabajamos con el fichero git_prompt.sh.
+
+### Configuración nvm y Node.js
+Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript, y nvm es una aplicación que nos permite tener y gestionar varias versiones de Node.js en el mismo sistema.
+
+Ahora instalaremos nvm en nuestra máquina, ejecutando los siguientes comandos: 
+
+*wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash*
+
+*exec bash -l*
+
+Para comprobar si se ha instalado correctamente, así como la versión, ejecutamos *nvm --version*
+
+![nvm instalado](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/78.png)
+
+![Comprobar instalacion](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/79.png)
+
+Después de comprobar que nvm se instaló correctamente, procederemos a instalar Node.js con el comando *nvm install node*
+
+![nvm instalado](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/81.png)
+
+Como se puede ver, con Node.js también se instaló npm (Node Package Manager).
+
+Para instalar una versión de Node.js en particular, podemos introducir *nvm install 12.0.0*
+
+![version concreto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/83.png)
+
+Para cambiar entre versiones, podemos ejecutar los siguientes comandos:
+
+*nvm list* (Para ver las versiones disponibles)
+
+*nvm use v15.8.0* (Para cambiar a la version 15.8.0, tiene que ser una que esté disponible, que esté en la lista anterior)
+
+*node --version* (Para comprobar la versión actual de node)
+
+*npm --version* (Para comprobar la versión actual de npm)
+
+![usar version](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/85.png)
+
+![comprobar version](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/img/86.png)
+
+## Conclusiones
+Con esta práctica se pretendía configurar la máquina virtual con todas las herramientas necesarias para el desarrollo de las futuras prácticas, de tal manera que después de hacer todo, podamos empezar a trabajar con Node.js y Github.
+
+## Bibliografía
+- [Guión Práctica 1](https://ull-esit-inf-dsi-2021.github.io/prct01-iaas/)
+- [nvm](https://medium.com/@martinmuelas/usando-node-js-con-nvm-516062f4dcdb)
+- [Node.js](https://es.wikipedia.org/wiki/Node.js)
+- [Git](https://es.wikipedia.org/wiki/Git)
+- [GitHub](https://github.com/)
