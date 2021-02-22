@@ -18,7 +18,7 @@ Una vez configurado hay que conectarse a la VPN hay que acceder al servicio IaaS
 Se deben introducir las credenciales para poder acceder. Se pueden observar todas las máquinas virtuales del usuario que están alojadas en el IaaS, debemos encender la máquina
 llamada **DSI**. Después de unos minutos verá que el nombre ha cambiado, ahora es DSI-XX, donde X es un número natural comprendido entre 0-9.
 
-![Máquina virtual IaaS](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/docs/img/1.JPG)
+![Máquina virtual IaaS](img/1.JPG)
 
 A continuación haga click en el nombre de la máquina, en la parte derecha se encuentra una sección llamada **Interfaces de Red** donde verá la direccion IP asignada a su máquina
 virtual. En mi caso es 10.6.129.210.
