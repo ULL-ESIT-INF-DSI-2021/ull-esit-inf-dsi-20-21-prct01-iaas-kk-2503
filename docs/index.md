@@ -23,21 +23,21 @@ llamada **DSI**. Después de unos minutos verá que el nombre ha cambiado, ahora
 A continuación haga click en el nombre de la máquina, en la parte derecha se encuentra una sección llamada **Interfaces de Red** donde verá la direccion IP asignada a su máquina
 virtual. En mi caso es 10.6.129.210.
 
-![Interfaces de Red](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/docs/img/2.JPG)
+![Interfaces de Red](img/2.JPG)
 
 ### Conectarse a la máquina virtual mediante SSH.
 Lo siguiente que debemos hacer es conectarnos a la máquina virtual mediante una conexión SSH. Para ello debemos abrir una terminal en nuestra máquina local y escribir lo siguiente:
 'ssh usuario@XX.X.XXX.XXX', donde en vez de XX.X.XXX.XXX debemos poner la dirección IP de la máquina virtual.
 
-![Conexion SSH](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/docs/img/3.png)
+![Conexion SSH](img/3.png)
 
 Introduzca **yes** e intro para avanzar:
 
-![Introducir yes](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/docs/img/4.png)
+![Introducir yes](img/4.png)
 
 Le va a pedir la contraseña, deberá introducir **usuario**:
 
-![Introducir usuario](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-kk-2503/blob/main/docs/img/5.png)
+![Introducir usuario](img/5.png)
 
 Como observa el sistema está pidiendo una contraseña nueva, primero pedirá la actual (usuario) y luego la nueva que la pedirá dos veces. Como es obvio, la próxima vez que inicié
 sesión en su máquina virtual deberá hacerlo con la contraseña nueva que le acaba de poner.
